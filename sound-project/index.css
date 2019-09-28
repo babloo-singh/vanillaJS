@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: yellowgreen;
+}
+.heading {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+}
+.white {
+  color: white !important;
+}
+.container {
+  width: 100%;
+}
+.horizontal-box {
+  color: white !important;
+  height: 200px;
+  vertical-align: middle;
+  padding: 20%;
+  width: auto;
+}
+.key {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font: bold;
+  background: black;
+  display: inline-block;
+  padding-top: 10px;
+  transition: all 0.5s;
+}
+.playing {
+  transform: scale(1.1);
+  border: black 3px solid;
+  box-shadow: 0px 0px 20px 2px black;
+}
+.desc {
+  font-size: 0.7em;
+}
